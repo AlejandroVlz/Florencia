@@ -3,7 +3,7 @@
 $usuario = "sa";
 $contraseña = "alex1928";
 $nombreBaseDeDatos = "florencia";
-$rutaServidor = "192.168.1.77";
+$rutaServidor = "192.168.1.70";
 
 
 try {
