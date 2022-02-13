@@ -7,7 +7,7 @@ $rutaServidor = "192.168.1.70";
 
 
 try {
-    $conn = new PDO("mysql:host=$rutaServidor;database=$nombreBaseDeDatos", $usuario, $contraseña);
+    $conn = new PDO("mysql:host==$rutaServidor;database=$nombreBaseDeDatos", $usuario, $contraseña);
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     
 } catch (Exception $e) {
